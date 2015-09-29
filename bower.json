@@ -1,0 +1,19 @@
+{
+  "name": "samurai",
+  "version": "0.0.0",
+  "homepage": "https://github.com/oleg-kipling/samurai",
+  "authors": [
+    "Oleg Kipling <oleg.kipling@gmail.com>"
+  ],
+  "description": "Health Samurai Official Site",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

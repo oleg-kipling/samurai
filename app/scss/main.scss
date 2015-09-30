@@ -1,0 +1,21 @@
+@import "includes/colors";
+
+body {
+	background: linear-gradient(45deg, $red, $blue);
+}
+
+.content-navigation {
+	border-color: $blue;
+	color:
+		darken($red, 9%);
+}
+
+.border {
+	padding: 20 / 2;
+	border-color: $blue;
+}
+
+.border-navigation {
+	border-color: 
+		darken($green, 10%);
+}

@@ -1,0 +1,92 @@
+@import "../bower_components/normalize-scss/_normalize.scss";
+@import "../bower_components/susy/sass/_susy.scss";
+// @import "../bower_components/susy/sass/_susyone.scss";
+@import "../bower_components/compass-breakpoint/stylesheets/_breakpoint.scss";
+
+@import "colors";
+@import "typography";
+
+// susy setup
+$total-columns 		: 12;
+$column-width		: 4em;
+$gutter-width		: 1em;
+$grid-padding		: $gutter-width;
+
+@include border-box-sizing;
+$small				: 30em;
+$medium				: 47em;
+$large				: 75em;
+
+
+//Content
+//-------------------------------------------
+// .layout {
+// 	@include container;
+// 	padding: 3%;
+
+// 	.primary {
+// 		margin-top: .2em;
+// 		@include at-breakpoint($medium) {
+// 			@include span-columns (8,12);
+			
+// 			#next-meeting {
+// 				@include border-radius(20px);
+// 				color: $paleyellow;
+// 				margin-bottom: 10px;
+// 				margin-top: 10px;
+// 				padding: 0 20px 20px 20px;
+// 				background: $cyan;
+
+// 				h1 {
+// 					color: darken($cyan, 15);
+// 					border: none;
+// 					text-shadow: none;
+// 					margin-bottom: 20px;
+// 				}
+				
+// 				a {
+// 					color:$darkblue;
+// 				}
+// 			}//next meeting
+// 		}//$medium layout here
+// 	}//primary 
+// }//layout
+
+.slide {
+	height:600px;
+}
+
+.box {
+	height: 600px;
+	/*margin: 20px;*/
+	/*padding: 30px;*/
+	/*border-radius: 10px;*/
+}
+
+.box1 {
+	background:#44FFCC;
+}
+
+.box2 {
+	background:#CC44FF;
+}
+
+.box3 {
+	background:#44CCFF;
+}
+
+// .content-navigation {
+// 	border-color: $blue;
+// 	color:
+// 		darken($red, 9%);
+// }
+
+// .border {
+// 	padding: 20 / 2;
+// 	border-color: $blue;
+// }
+
+// .border-navigation {
+// 	border-color: 
+// 		darken($green, 10%);
+// }

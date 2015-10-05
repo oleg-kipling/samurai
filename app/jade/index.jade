@@ -1,0 +1,37 @@
+doctype html
+html(lang="en")
+  include ./_head.jade
+  body
+    section.header
+       h1 Health Samurai
+    
+    section.layout
+
+    section.slider
+      #Glide.glide.box
+        .glide__arrows
+          span.glide__arrow.prev(data-glide-dir="<").
+            prev
+          span.glide__arrow.next(data-glide-dir=">").
+            next
+
+        .glide__wrapper
+          ul.glide__track
+            li.glide__slide.box1
+            li.glide__slide.box2
+            li.glide__slide.box3
+        
+        ul.glide__bullets
+    
+    
+    section.people
+      h1 People
+    include ./_prefooter.jade
+    include ./_footer.jade
+    script('src'='js/jquery.min.js')
+    script('src'='js/glide.min.js')
+
+    //- script(type="text/javascript").
+    //-   $("#Glide").glide({
+    //-     type: "carusel"
+    //-   })

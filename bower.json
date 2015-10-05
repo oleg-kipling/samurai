@@ -5,7 +5,7 @@
   "authors": [
     "Oleg Kipling <oleg.kipling@gmail.com>"
   ],
-  "description": "Health Samurai Official Site",
+  "description": "Health Samurai official site",
   "main": "",
   "moduleType": [],
   "license": "MIT",
@@ -15,5 +15,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "susy": "~2.2.6",
+    "compass-breakpoint": "~2.6.1",
+    "normalize-scss": "~3.0.3"
+  }
 }

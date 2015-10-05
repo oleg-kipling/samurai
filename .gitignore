@@ -2,4 +2,8 @@
 .sass-cache
 node_modules/
 bower_components/
-dist/
+app/bower_components/
+app/libs/
+components/
+buils/
+
